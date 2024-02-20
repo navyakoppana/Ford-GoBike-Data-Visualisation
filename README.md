@@ -1,13 +1,28 @@
 # (Ford Go Bike System Data )
-## by (Navya)
+## Table of Contents
+1. Introduction
+2. List of libraries used
+3. Files in repository
+4. Summary of Findings
+5. Key insights for presentation
 
 
-## Dataset
+### Introduction
+This data set includes information about 183412 individual rides made in a bike-sharing system covering the greater San Francisco Bay area. The dataset originally contains 183412 rows and 16 columns. After wrangling and cleaning the dataset,it now contains 174952 rows and 24 columns.The columns include start time,start station and their coordinates,end time,end station and their coordinates,bike id,user type etc.
 
- This data set includes information about 183412 individual rides made in a bike-sharing system covering the greater San Francisco Bay area. The dataset originally contains 183412 rows and 16 columns. After wrangling and cleaning the dataset,it now contains 174952 rows and 24 columns.The columns include start time,start station and their coordinates,end time,end station and their coordinates,bike id,user type etc.
+### List of libraries used
+1. Numpy
+2. Pandas
+3. Matplolib
+4. Seaborn
 
-
-## Summary of Findings
+### Files in repository
+1. bikedata.csv.zip : This file contains the dataset required for our project.
+2. Part_I_Bikedata_analysis_exploratory.ipynb: This contains python code for performing data wrangling.
+3. Part_II_Bikedata_analysis_explanatory.ipynb: This contains python code for performing data visualisation.
+4. Part_II_Bikedata_analysis_explanatory.slides.html: This contains 3 visualisations to convey key insights along with descriptive comments.
+   
+### Summary of Findings
 
 The dataset contains data for months of February and March '19.
 
@@ -27,8 +42,7 @@ The duration of trip in terms of days:weekends>weakdays.
 
 The duration of trip in terms of user type:customer>subscriber.
 
-
-## Key Insights for Presentation
+### Key Insights for Presentation
 
 1. There are high number of rides during the opening office hours and closing office hours.
 
